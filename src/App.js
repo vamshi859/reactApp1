@@ -9,7 +9,7 @@ const App = () =>
   return (
     <div className="container">
 
-        <Route path='/posts' exact component={Show} />
+        <Route path='/' exact component={Show} />
         <Route path='/add' exact component={Add} />
         <Route path='/post/:postid' exact component={Blog} />
          {/* <Route path='/edit' exact component={} /> */}

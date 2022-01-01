@@ -11,7 +11,7 @@ const Delete = () =>
  });
  console.log(val);
  localStorage.setItem('blogs',JSON.stringify(val))
- history.push('/posts');
+ history.push('/');
 
 }
 

@@ -30,7 +30,7 @@ const Add = () =>
     localStorage.setItem('blogs',JSON.stringify(blogs));
     console.log(blogs);
     console.log(blog);
-    history.push('/posts');
+    history.push('/');
     
 
   }
